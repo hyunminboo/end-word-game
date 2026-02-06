@@ -38,7 +38,7 @@ const WordGame = ({ startWord }) => {
     }    
     return (
         <div className='game-container'>
-                  <h1>끝말잇기</h1>
+                  <h1>부현민의 끝말잇기</h1>
             <p className='current-word'>
                 {word}
             </p>

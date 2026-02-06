@@ -18,6 +18,7 @@ $mg-default: 20px;
 // shadow
 $box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
 
+
 .game-container {
     text-align: center;
     background-color: $bg-color;
@@ -27,7 +28,7 @@ $box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
 
     h1 {
         font-size: $fs-medium;
-        color: $m-color;
+        color: rgb(46, 46, 82);
     }
 
     .current-word {
@@ -40,7 +41,7 @@ $box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
         width: 200px;
         padding: $pd-small;
         border: 2px solid $bdr-color;
-        border-radius: $bdr-radius;
+        border-radius: 30px;
         transition: border .3s;
         outline: none;
         &:focus {
@@ -51,8 +52,8 @@ $box-shadow: 0 0 10px rgba(0, 0, 0, 0.171);
     button {
         margin-left:10px;
         border: none;
-        border-radius: $bdr-radius;
-        background-color: $m-color;
+        border-radius: 50%;
+        background-color: rgb(46, 46, 82);
         color: #fff;
         padding:$pd-small $pd-small*2 ;
         cursor: pointer;
